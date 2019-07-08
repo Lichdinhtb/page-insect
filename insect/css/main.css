@@ -474,8 +474,8 @@ p {
     margin-bottom: 3rem;
     margin: 0; }
     .label-price img {
-      width: 160px;
-      height: 160px;
+      width: calc(100% - 20px);
+      height: calc(100% - 20px);
       margin-bottom: 10px; }
 
   .price {
