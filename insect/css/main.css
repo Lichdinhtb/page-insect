@@ -495,6 +495,31 @@ p {
   .chart .mt-x {
     margin-top: 115px; } }
 @media (max-width: 575.98px) {
+  .logo-foot{
+    width: 170px;
+    height: 36px;
+  }
+  .logo-main{
+    width: 240px;
+    height: 99px;
+    text-align: center;
+  }
+  .header{
+    padding-top: 2.5rem;
+    padding-bottom: 3.125rem;
+  }
+  .slogan-btn{
+    display: none;
+  }
+  .slogan__title{
+    margin-bottom: 1.875rem;
+  }
+  .circle-left{
+    padding-left: 30px !important;
+  }
+  .circle-right{
+    padding-right: 30px !important;
+  }
   .introduction {
     margin-left: 0.625rem;
     margin-right: 0.625rem; }
@@ -560,8 +585,8 @@ p {
     transform: rotate(90deg); }
 
   .label-price img {
-    width: 125px;
-    height: 125px; }
+    width: calc(100% - 7px);
+    height: calc(100% - 7px); }
 
   .price {
     padding: 1.25rem 1.25rem 2.5rem 1.25rem; }
