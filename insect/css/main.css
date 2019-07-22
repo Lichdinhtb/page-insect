@@ -583,7 +583,15 @@ p {
     margin-top: 0.75rem;
     margin-bottom: 0.75rems;
     transform: rotate(90deg); }
-
+  .record__images__cap13 {
+    width: 90%;
+    height: 500px;
+  }
+  .record__images__cap11 {
+    width: 50%;
+    height: 500px;
+  }
+  
   .label-price img {
     width: calc(100% - 7px);
     height: calc(100% - 7px); }
@@ -642,11 +650,6 @@ p {
       justify-content: flex-start;
       padding: 5px; }
 
-    /* .chartsp__procedure__step__box img {
-      width: calc(100% - 15px);
-      height: calc(100% - 15px);
-    } */
-
     .chartsp__procedure__step__box{
       margin-bottom: 30px;
       padding: 0 10px;
@@ -656,8 +659,4 @@ p {
       margin-top: 115px;
       margin-bottom: 30px;
     }
-
-    
-       
-
 /*# sourceMappingURL=main.css.map */
